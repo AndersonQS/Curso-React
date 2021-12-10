@@ -1,5 +1,14 @@
- export default function Primeiro() {
+import React from "react"
 
-  return 'Primeiro Componente '
-  
+
+export default function Primeiro() {
+
+    const msm = 'alo caba '
+  return (
+    <div>
+    <h2>Primeiro Componente</h2>
+    <p>{msm}</p>
+    </div>
+    )
+
 }
