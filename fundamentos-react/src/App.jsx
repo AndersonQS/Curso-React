@@ -13,7 +13,7 @@ export default _ =>
     <h1>fundamentos React 2 </h1>
 
     <div className="Cards">
-      <Card titulo="Desafio Aleatório" >
+      <Card titulo="Desafio Aleatório" color = "#080">
         <Aleatorio min={1} max={30} > </Aleatorio>
       </Card>
 
