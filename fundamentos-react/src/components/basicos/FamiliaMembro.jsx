@@ -2,7 +2,8 @@ import React from 'react';
 
 
 export default (props) => {
-  return <span>Pedro <strong>silva</strong>
-  </span>;
+  return <div>
+    {props.nome} <strong>{props.sobrenome}</strong>
+  </div>;
 }
 

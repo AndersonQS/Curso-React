@@ -1,14 +1,12 @@
-import React from 'react';
-import FamiliaMembro from './FamiliaMembro';
+import React, {cloneElement} from 'react';
 
 // import { Container } from './styles';
 
 export default props => {
-  return 
+  return (
   <div>
-    <FamiliaMembro></FamiliaMembro>
-    <FamiliaMembro></FamiliaMembro>
-    <FamiliaMembro></FamiliaMembro>
-  </div>;
+    {cloneElement(props.children)}
+  </div>
+  )
 }
 
