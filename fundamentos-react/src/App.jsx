@@ -18,11 +18,10 @@ export default _ =>
 
       <Card titulo="componente com filhos" color="#00c8f8">
         <Familia sobrenome="Ferreira">
-          <FamiliaMembro nome="Anderson" />
-          {/* 
+          <FamiliaMembro nome="Anderson" /> 
           <FamiliaMembro nome="Diego"  />
           <FamiliaMembro nome="Pedro"  />
-          */}
+          
         </Familia>
       </Card>
       <Card titulo="Desafio Aleatório" color="#080">
