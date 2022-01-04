@@ -4,7 +4,7 @@ export default (props) => {
   const alunoLista = alunos.map((aluno) => {
     return (
       <li Key={aluno.id}>
-        {aluno.id}) {aluno.name}   -> {aluno.nota}
+        {aluno.id}) {aluno.name}   -{'>'} {aluno.nota}
       </li>
     );
   });
@@ -17,3 +17,4 @@ export default (props) => {
     </div>
   );
 };
+
