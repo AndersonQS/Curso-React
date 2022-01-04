@@ -1,6 +1,7 @@
 import './App.css'
 import React from 'react'
 
+import ListaAlunos from './components/repeticao/ListaAlunos'
 import Familia from './components/basicos/Familia'
 import FamiliaMembro from './components/basicos/FamiliaMembro'
 import Card from './components/layout/Card'
@@ -15,6 +16,9 @@ export default _ =>
     <h1>fundamentos React 2 </h1>
 
     <div className="Cards">
+      <Card titulo="Repetição" color ="#ff4c65">
+        <ListaAlunos></ListaAlunos>
+      </Card>
 
       <Card titulo="componente com filhos" color="#00c8f8">
         <Familia sobrenome="Ferreira">
