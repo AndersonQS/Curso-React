@@ -5,18 +5,32 @@ import produto from '../../data/produtos'
 export default (props) => {
   const TabelaProduto = produto.map((produto) => {
     return (
-      <li key={produto.id}>
-        {produto.id}) {produto.name} = {produto.price}
-      </li>
+      <tr key={produto.id}>
+        <td>{produto.id}</td>
+        <td>{produto.name}</td>
+        <td> R$ {produto.price}</td>
+      </tr>
+
+
+
 
     )
   });
 
   return (
     <div>
-      <ul>
-        {TabelaProduto}
-      </ul>
+      <table>
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Preço</th>
+          </tr>
+        </thead>
+        <tbody>
+          {TabelaProduto}
+        </tbody>
+      </table>
     </div>
   )
 
